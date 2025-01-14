@@ -90,6 +90,7 @@ After installing ROCm, follow these steps to finalize and validate the installat
       This step is required for version specific or :doc:`multi-version installations <./native-install/multi-version-install>`. 
 
    .. code-block:: shell
+      :substitutions:
 
       export LD_LIBRARY_PATH=/opt/rocm-|rocm_directory_version|/lib
 
