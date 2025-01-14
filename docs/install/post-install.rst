@@ -91,7 +91,7 @@ After installing ROCm, follow these steps to finalize and validate the installat
 
    .. code-block:: shell
 
-      export LD_LIBRARY_PATH=/opt/rocm-6.3.0/lib
+      export LD_LIBRARY_PATH=/opt/rocm-|rocm_directory_version|/lib
 
 5. Verify the ROCm installation.
 
